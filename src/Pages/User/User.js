@@ -119,7 +119,7 @@ function User() {
 
 
 
-        const URL = 'http://localhost:5000/account';
+        const URL = 'https://backend-authapp34.herokuapp.com/account';
 
         axios({
             method: 'PUT',
@@ -165,7 +165,7 @@ function User() {
 
     const handleLogOut = () => {
         Cookies.remove('isLoginIn');
-        window.location = 'http://localhost:3000/login';
+        window.location = 'https://auth-app34.herokuapp.com/login';
     }
 
 
