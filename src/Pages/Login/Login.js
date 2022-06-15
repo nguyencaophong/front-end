@@ -261,12 +261,10 @@ function Login() {
                     throw Error("invalid");
                 }
             )
-            .then(
-                (result) => {
-                    console.log(result);
-                }
-            )
-            .catch(err => console.log(err));
+            .catch(error =>{
+                console.log(error);
+            }
+            );
         
     }
 
