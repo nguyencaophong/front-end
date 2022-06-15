@@ -1,0 +1,151 @@
+
+
+
+.w-12 {
+    width: 100%;
+}
+
+.w-8 {
+    width: 66.67%;
+}
+
+.w-4 {
+    width: 33.33%;
+}
+
+
+.w-6 {
+    width: 50%;
+}
+
+.w-3 {
+    width: 25%;
+}
+
+.w-9 {
+    width: 75%;
+}
+
+
+.container-fluid {
+    width: 100%;
+}
+
+.container-infor-user{
+    padding-top: 100px;
+}
+
+#infor-user{
+    .infor-user-error{
+        color: red;
+        font-size: 20px;
+    }
+}
+
+
+
+#user {
+    height: 100vh;
+    background-color: rgb(182, 222, 244);
+    position: relative;
+}
+
+#user-information {
+    width: 33.33%;
+    border: 1px solid white;
+    background-color: white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+
+#title-user-information {
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(50, 128, 169)
+}
+
+#single-content-user-information {
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    #label {
+        font-size: 14px;
+        font-weight: 700;
+        width: 30%;
+        color: rgb(50, 128, 169);
+        text-align: left;
+    }
+
+    #input {
+        height: 15px;
+        border-radius: 3px;
+        border: 2px solid rgb(196, 196, 196);
+        width: 70%;
+    }
+
+
+
+}
+
+
+#button-user-information {
+    display: flex;
+    justify-content: space-around;
+
+    #button-save {
+        background-color: rgb(25, 138, 25);
+        border: 1px solid rgb(25, 138, 25);
+        color: white;
+        padding: 5px 15px 5px 15px;
+        font-weight: 700;
+        border-radius: 3px;
+    }
+
+    #button-save:hover {
+        background-color: rgb(56, 186, 56);
+        border: 1px solid rgb(56, 186, 56);
+    }
+
+    #button-delete {
+        background-color: rgb(212, 34, 34);
+        border: 1px solid rgb(212, 34, 34);
+        color: white;
+        padding: 5px 10px 5px 10px;
+        font-weight: 700;
+        border-radius: 3px;
+    }
+
+    #button-delete:hover {
+        background-color: rgb(217, 67, 67);
+        border: 1px solid rgb(217, 67, 67);
+    }
+
+    
+}
+
+
+
+
+@media screen and (min-width: 751px) and (max-width: 1000px) {
+    #user-information {
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 415px) and (max-width: 750px) {
+    #user-information {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    #user-information {
+        width: 80%;
+    }
+}

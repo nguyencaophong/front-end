@@ -1,0 +1,212 @@
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(182, 222, 244);
+    position: relative;
+
+    .input-login {
+        border: 2px solid rgb(198, 198, 198);
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 4px;
+        padding: 0px;
+        display: block;
+        padding: 5px 10px 5px 10px;
+    }
+
+    .button-login {
+        display: inline-block;
+        width: 100%;
+        margin-top: 5px;
+    }
+}
+
+
+
+.modal {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgba(153, 153, 153, 0.4);
+}
+
+
+#button-log-in {
+    border-radius: 3px;
+    border: 1px solid rgb(170, 214, 253);
+    background-color: rgb(170, 214, 253);
+    padding: 5px 10px 5px 10px;
+    color: white;
+    font-weight: 700;
+
+}
+
+#forget-password {
+    font-size: 15px;
+    opacity: 0.6;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+#login {
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 20%;
+    border: 2px solid white;
+    border-radius: 5px;
+
+    .log-in-error{
+        color: red; 
+    }
+
+
+
+    #button-sign-up {
+        width: 100%;
+        border-radius: 3px;
+        border: 1px solid rgb(170, 214, 253);
+        background-color: rgb(170, 214, 253);
+        color: white;
+        font-weight: 700;
+        padding: 5px 10px 5px 10px;
+    }
+
+    #log-in-input {
+        width: 100%;
+        display: flex;
+    }
+
+
+    #input-login {
+        width: 100%;
+    }
+
+    #forget-password {
+        color: black;
+        text-decoration: none;
+    }
+}
+
+
+.modal-container {
+    width: 100%;
+    height: 100vh;
+}
+
+#sign-up {
+    width: 20%;
+    border: 1px solid white;
+    border-radius: 4px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+
+    .input-sign-up {
+        width: 100%;
+        display: flex;
+        margin-top: 5px;
+    }
+
+    .sign-in-error{
+        color: red; 
+    }
+
+    .title-sign-up {
+        margin-bottom: 20px;
+
+        #text-title-sign-up {
+            font-size: 20px;
+            text-align: left;
+            color: rgb(0, 0, 0);
+            font-weight: 500;
+        }
+    }
+
+    #sign-up-icon {
+        position: absolute;
+        top: 5%;
+        left: 90%;
+
+    }
+
+    .button-sign-up {
+        width: 100%;
+        display: flex;
+        margin-top: 5px;
+
+        #button-sign-up {
+            width: 100%;
+            border-radius: 3px;
+            border: 1px solid rgb(170, 214, 253);
+            background-color: rgb(170, 214, 253);
+            color: white;
+            font-weight: 700;
+            padding: 5px 10px 5px 10px;
+        }
+    }
+
+
+
+
+    .text-sign-up {
+        width: 100%;
+        padding: 5px 10px 5px 10px;
+        border: 2px solid rgb(198, 198, 198);
+        border-radius: 3px;
+    }
+
+}
+
+.sign-up-error {
+    color: red;
+    font-size: 12px;
+}
+
+.deactive {
+    display: none;
+}
+
+
+
+@media screen and (min-width: 751px) and (max-width:1000px) {
+    #login {
+        width: 50%;
+    }
+
+    #sign-up {
+        width: 50%;
+    }
+}
+
+
+@media screen and (min-width: 415px) and (max-width:750px) {
+    #login {
+        width: 60%;
+    }
+
+    #sign-up {
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+    #login {
+        width: 80%;
+    }
+
+    #sign-up {
+        width: 80%;
+    }
+}
